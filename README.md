@@ -1,10 +1,10 @@
 # myBot
 
-myBot is a working Slack bot written in Go. Fork it & use it to build your own cool Slack bot!
+myBot is a working Slack bot written in Go. Fork it & use it to build your own cool Slack bot 🤖!
 
 ## Some components myBot comes with
 - random password generator
-- calling external API
+- calling external API (random Joke)
 
 ### To Get started
 
@@ -30,5 +30,11 @@ go run main.go
 go run *.go (run multiple files)
 ```
 
+#### Once added the bot to your Slack app, Interact with your bot
+```
+@myBot hello
+@myBot joke
+@myBot randompassword
+
 ### External Dependencies
-1. Your Slack APP Config [https://api.slack.com/apps]
+1. Your Slack App Config & Permissions [https://api.slack.com/apps]
