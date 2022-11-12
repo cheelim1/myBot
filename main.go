@@ -1,11 +1,9 @@
 package main
 
-
+import (
+	"github.com/cheelim1/myBot/pkg/slack"
+)
 
 func main() {
-
-	// PokemonT()
-	JokeOfTheDay()
-	// Default()
-	// PasswordGenerator()
+	slack.SlackInit()
 }
