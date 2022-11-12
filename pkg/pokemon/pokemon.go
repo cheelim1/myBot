@@ -1,4 +1,4 @@
-package main
+package pokemon
 
 import (
 	"encoding/json"
